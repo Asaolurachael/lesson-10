@@ -1,0 +1,51 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: aqua;
+    color: aquamarine;
+}
+
+h1 {
+    color: cornflowerblue;
+}
+p {
+    color: darkcyan;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkgrey;
+}
+
+ul > li {
+    font-weight: bold;
+}
+
+h1 + p {
+    background-color: firebrick;
+    padding: 11px;
+    border-radius: 3px;
+}
+
+ul li:hover {
+    color: darkslategrey;
+}
+
+ul li:nth-child(3) {
+    background-color: deepskyblue;
+}
+
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+ul li::before {
+    content: "💖";
+}
+ a::after {
+    content: "❤";
+ }
+
+ p::first-letter {
+    font-size: 20px;
+    color: cadetblue;
+ }
